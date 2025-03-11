@@ -1,0 +1,31 @@
+.sortable-item {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.sortable-item:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.sortable-item:active {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.sortable-placeholder {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 2px dashed #ccc;
+  border-radius: 4px;
+  min-height: 50px;
+  margin-bottom: 10px;
+}
+
+/* Add this rule to limit the max-width of the columns */
+.status-column {
+  width: 270px; /* Adjust the value as needed */
+}
+
+/* Add this rule to align columns to the left */
+.status-columns-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px; /* Adjust the gap between columns as needed */
+}

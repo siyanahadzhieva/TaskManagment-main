@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap");
+
+:root {
+  --bg-color: #f3f6fb;
+  --text-color: #333;
+  --table-bg-color: #fff;
+  --table-border-color: #ddd;
+  --table-header-bg-color: #f7f7f7;
+  --table-header-text-color: #333;
+  --table-row-hover-bg-color: #f1f1f1;
+  --priority-icon-color: #333;
+  --status-to-do-bg-color: #e0e0e0;
+  --status-to-do-text-color: #666;
+  --status-in-progress-bg-color: #d0e7ff;
+  --status-in-progress-text-color: #007bff;
+  --status-done-bg-color: #d4edda;
+  --status-done-text-color: #28a745;
+  --button-bg-color: #007bff;
+  --button-text-color: #fff;
+  --button-hover-bg-color: #0056b3;
+  --button-focus-ring-color: #0056b3;
+  --icon-color: #333;
+  --logo-color: #333;
+  --dashboard-bg-color: #fff;
+  --dashboard-text-color: #333;
+  --task-bg-color: #fff;
+  --task-title-color: #333;
+  --task-description-color: #666;
+  --task-border-color: #89cff0; /* Baby blue color for the task border */
+  --sun-icon-color: #f39c12; /* Sun icon color */
+  --moon-icon-color: #f1c40f; /* Moon icon color */
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-color);
+  background-size: cover;
+  color: var(--text-color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Dark theme */
+body.dark {
+  --bg-color: #2c2c2c; /* Dark gray background color */
+  --text-color: #f3f6fb;
+  --table-bg-color: #1f1f1f;
+  --table-border-color: #3b3b3b;
+  --table-header-bg-color: #2a2a2a;
+  --table-header-text-color: #f3f6fb;
+  --table-row-hover-bg-color: #2a2a2a;
+  --priority-icon-color: #f3f6fb;
+  --status-to-do-bg-color: #3a3a3a;
+  --status-to-do-text-color: #999;
+  --status-in-progress-bg-color: #0056b3;
+  --status-in-progress-text-color: #d0e7ff;
+  --status-done-bg-color: #155724;
+  --status-done-text-color: #d4edda;
+  --button-bg-color: #0056b3;
+  --button-text-color: #f3f6fb;
+  --button-hover-bg-color: #003366;
+  --button-focus-ring-color: #003366;
+  --icon-color: #f3f6fb;
+  --logo-color: #f3f6fb;
+  --dashboard-bg-color: #3a3a3a; /* Slightly lighter dark gray for dashboard */
+  --dashboard-text-color: #f3f6fb;
+  --task-bg-color: #4a4a4a; /* Dark gray for task background */
+  --task-title-color: #f3f6fb;
+  --task-description-color: #999;
+  --task-border-color: #89cff0; /* Baby blue color for the task border */
+  --sun-icon-color: #f39c12; /* Sun icon color */
+  --moon-icon-color: #f1c40f; /* Moon icon color */
+}
